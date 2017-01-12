@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hexa.webandrioz.com.congress.fragments.legislators.legislators.ByStatesFragment">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:text="A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nN\nM\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ"
+        android:gravity="top"
+        android:paddingLeft="15dp"
+        android:background="@color/indexBackground"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/indexTest" />
+
+</RelativeLayout>
